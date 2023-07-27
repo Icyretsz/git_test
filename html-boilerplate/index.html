@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My First Website</title>
+    </head>
+
+    <body>
+        <!--This is a comment-->
+        <ol><h2><li>Elements formatting and list</li></h2>
+            <h3>a. Unordered list (ul)</h3>
+                <ul>
+                    <li><strong>strong: makes text bold and add importance.</strong></li>
+                    <li><b>b: only makes text bold (not recommend using).</b></li>
+                    <li><em>em: makes text italic and add importance.</em></li>
+                    <li><i>i: only makes text italic (not recommend using).</i></li>
+                    <li><mark>mark: marks the text.</mark></li>
+                    <li><small>small: makes smaller text.</small></li>
+                    <li><del>del: add strike-through to text.</del></li>
+                    <li><ins>ins: underline the text.</ins></li>
+                    <li>sub: makes <sub>text</sub> subcript.</li>
+                    <li>sup: makes <sup>text</sup> superscript.</li>
+                </ul>
+            <h3>b. Ordered list (ol)</h3>
+                <ol>
+                    <li><strong>strong: makes text bold and add importance.</strong></li>
+                    <li><b>b: only makes text bold (not recommend using).</b></li>
+                    <li><em>em: makes text italic and add importance.</em></li>
+                    <li><i>i: only makes text italic (not recommend using).</i></li>
+                    <li><mark>mark: marks the text.</mark></li>
+                    <li><small>small: makes smaller text.</small></li>
+                    <li><del>del: add strike-through to text.</del></li>
+                    <li><ins>ins: underline the text.</ins></li>
+                    <li>sub: makes <sub>text</sub> subcript.</li>
+                    <li>sup: makes <sup>text</sup> superscript.</li>
+                </ol>
+        <h2><li>Links and images</li></h2>
+            <h3>a. Links</h3>
+                <ul>
+                    <li>The anchor elements: wrapping the text or another HTML element we want to be a link with an  &lt;a&gt; tag.</li>
+                    <li>HTML attribute: gives additional information to an HTML elements. It's always in the opening tag.</li>
+                    <ol>
+                        <li>href: anchors/links an resource to text. Remember to add <strong>rel="noopener and noreferrer"</strong> for <strong>security reasons</strong>. </li>
+                        <li>target: specifies where the liked resource will be opened (add <strong>_blank</strong> to open in new tab).</li>  
+                    </ol>
+                    <p>Example: <em>&lt;a href="https://www.facebook.com/biglak1" target="_blank" rel="noopener noreferrer"&gt;My Facebook page&lt;/a&gt;</em> 
+                    will give <a href="https://www.facebook.com/biglak1" target="_blank" rel="noopener noreferrer">My Facebook page</a></p>
+                    <li>Absolute links: links to other websites. (protocol://domain/path)</li>
+                    <li>Relative links: links to other pages within our own website. </li>
+                    <p>Example: &lt;a href="./pages/about.html"&gt;About&lt;/a&gt;
+                    will give <a href="./pages/about.html">About</a> (By adding ./ you are specifying to your code 
+                    that it should start looking for the file/directory relative to the current directory).</p>
+                    <p>When use href to link a website to text, the website link must be typed in full (https://www.website.com), 
+                    if <strong>https</strong> is ommitted, the browser will try to look <strong>inside</strong> of ur computer instead of on the internet.</p>
+                </ul>    
+            <h3>b. Images</h3>
+                <p><strong>src</strong> can be a link to other websites or its relative link to the current website. <strong>alt</strong> is for the description of the photo (for screen reader, google search).</p>
+                <img src="./images/itsme.png" alt="this is the photo of me" >
+                <img src="studentcard.jpg" alt="this is my student card">
+                
+        </ol>
+    </body>
+</html>
